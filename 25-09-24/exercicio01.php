@@ -25,15 +25,15 @@
                                 <div class= "row">
                                         <div class="col-md-4">
                                                 <label> Medidade parede 01(m)</label>
-                                                <input class="w-100"> 
+                                                <input type="number" name="cpmed1" class="w-100"> 
                                         </div>
                                         <div class="col-md-4">
-                                                <label> Medidade parede 01(m)</label>
-                                                <input class="w-100"> 
+                                                <label> Medidade parede 02(m)</label>
+                                                <input type="number" name="cpmed2" class="w-100"> 
                                         </div>
                                         <div class="col-md-2">
                                                 <br>
-                                                <input class=" btn btn-success w-100" type= "submit" value="Calcular"/> 
+                                                <input  class=" btn btn-success w-100" type= "submit" value="Calcular"/> 
                                         </div>
                                         <div class="col-md-2">
                                                 <br>
@@ -51,3 +51,13 @@
 </body>
 </html>
 
+<?php
+        if (!empty($_GET)){
+                //se não houve nenhuma interação com o campo
+                $m1=$_GET['cpmed1'];
+                $m2=$_GET['cpmed2'];
+                header('Location:exercicio01resp.php?med1='.$m1.'&med2='.$m2);
+        }
+
+
+?>

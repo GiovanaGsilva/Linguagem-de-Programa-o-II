@@ -14,10 +14,10 @@
         <h5 class="card-title text-center">Exercícios Aprendizado I - HTML com PHP</h5>
         <div class="list-group">
             <a href="exercicio01.php" class="list-group-item list-group-item-action">Exercício 01 - Comprimento de Fio</a>
-            <a href="#" class="list-group-item list-group-item-action">Exercício 02 - Tabuada</a>
-            <a href="#" class="list-group-item list-group-item-action">Exercício 03 - Análise de números</a>
-            <a href="#" class="list-group-item list-group-item-action">Exercício 04 - Divisão Tratada</a>
-            <a href="#" class=" list-group-item list-group-item-action">Exercício 05 - Jogo da Ficha</a>
+            <a href="exercicio02.php" class="list-group-item list-group-item-action">Exercício 02 - Tabuada</a>
+            <a href="exercicio03.php" class="list-group-item list-group-item-action">Exercício 03 - Análise de números</a>
+            <a href="exercicio04.php" class="list-group-item list-group-item-action">Exercício 04 - Divisão Tratada</a>
+            <a href="exercicio05.php" class=" list-group-item list-group-item-action">Exercício 05 - Jogo da Ficha</a>
 
           </div>
     </div>

@@ -1,3 +1,10 @@
+<?php
+ $m1 = $_GET['med1'];
+ $m2 = $_GET['med2'];
+ $fio = sqrt($m1**2 +$m2**2)*100;
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,9 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Resposta Exericio 01</title>
 </head>
-<body>
+<body class= "bg-info-subtle" >
 
-<div class="card w-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto mt-5 ">
+<div class="card w-50 shadow-lg p-3 mb-5  rounded mx-auto mt-5 ">
 <table class="table">
   <thead>
     <tr>
@@ -20,13 +27,18 @@
   </thead>
   <tbody>
     <tr>
-      <td>0,0</td>
-      <td>0,0</td>
-      <td>0,0</td>
-    
+      <td><?php echo $m1  ?></td>
+      <td><?php echo $m2  ?></td>
+      <td><?php echo round ($fio,2)  ?></td>
     </tr>
   </tbody>
-</table> </div>
+</table> 
+
+<div class="col-md-12 m-3"> 
+  <a href="exercicio01.php">Voltar<a>
+</div>
+
+</div>
 
     
 </body>
